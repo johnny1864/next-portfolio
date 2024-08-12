@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="flex justify-center relative">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Experienced Frontend Web Developer
+            Frontend Web Developer, Full Stack Experiecn
           </p>
 
           <TextGenerateEffect
@@ -39,7 +39,7 @@ const Hero = () => {
             Hi! I&apos;m Johnny, a Web Developer based in the United States.
           </p>
 
-          <a href="#about">
+          <a href="#projects-section">
             <MagicButton
               title="View My Work"
               icon={<FaLocationArrow />}
