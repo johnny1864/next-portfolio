@@ -1,14 +1,13 @@
 export const navItems = [
+  { name: "About", link: "#about-me" },
   { name: "Projects", link: "#projects-section" },
-  { name: "About", link: "#about-section" },
-
   { name: "Contact", link: "#footer" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client satisfaction and user experience ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -215,3 +214,7 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
+
+export const skills = [
+  "CSS/SASS", "JavaScript", "WordPress", "Shopify", "PHP", "jQuery", "NextJS", "Git"
+]

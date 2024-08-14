@@ -6,6 +6,7 @@ import RecentProjects from "@/components/RecentProjects";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
+import AboutMe from "@/components/AboutMe";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <div className="max-w-7xl w-full" >
         <FloatingNavBar className="" navItems={navItems} />
         <Hero/>
+        <AboutMe />
         <RecentProjects />
         <Grid />
         
