@@ -83,3 +83,14 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+
+.code-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  #projects-section .sm\:w-96 {
+    width: 30rem
+  }
+}
