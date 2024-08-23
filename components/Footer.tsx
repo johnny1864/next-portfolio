@@ -2,6 +2,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
+import ContactForm from "./ContactForm";
+
 
 const Footer = () => {
   const d = new Date();
@@ -11,7 +13,7 @@ const Footer = () => {
       <div className="w-full absolute left-0 -bottom-72">
         <img src="./footer-grid.svg" alt=" " />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center relative z-2">
         <h2 className="heading lg:max-w-[45vw]">
           Ready To take <span className="text-purple">your</span> digital
           presence to the next level
@@ -20,29 +22,34 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:johnny1864g@gmail.com">
+
+        {/* <ContactForm /> */}
+
+         <a href="mailto:johnny1864g@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>
+        </a> 
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base mb-3 md:mb-0 text-sm md:font-normal font-light">
           Copyright © { year } Johnny Rivera
         </p>
 
         <div className="flex  items-center md:gap-3 gap-6">
           {socialMedia.map((media) => {
             return (
-              <div
+              <a
+                href={media.link}
+                target="_blank"
                 key={media.id}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
               >
                 <img src={media.img} alt="icons" width={20} height={20} />
-              </div>
+              </a>
             );
           })}
         </div>

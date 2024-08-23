@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="md:w-1/2 w-full">
           <h2 className="heading mb-5">About Me</h2>
           <p>
-            I'm a web developer with 4+ years of experience specializing in custom WordPress and Shopify sites.
+            I am a web developer with 4+ years of experience specializing in custom WordPress and Shopify sites.
 
           </p>
           <h3 className="my-3 text-xl mb-5	underline-offset-8 underline">

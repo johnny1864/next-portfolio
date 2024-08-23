@@ -18,7 +18,7 @@ export default function Home() {
         <Hero/>
         <AboutMe />
         <RecentProjects />
-        <Grid />
+        {/* <Grid /> */}
         
         
         <Footer />

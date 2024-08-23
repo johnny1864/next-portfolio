@@ -73,7 +73,7 @@ export const projects = [
     id: 1,
     title: "For Bare Feet",
     des: "Custom Shopify theme.",
-    img: "/forbare-feet.png",
+    img: "/forbarefeet-v3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://forbarefeet.com/",
   },
@@ -81,7 +81,7 @@ export const projects = [
     id: 2,
     title: "Brightfin",
     des: "Custom WordPress theme for FinTech company.",
-    img: "/brightfin.png",
+    img: "/brightfin-v3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.brightfin.com/",
   },
@@ -89,7 +89,7 @@ export const projects = [
     id: 3,
     title: "Partlow",
     des: "Created online presents for Partlow Boots leveraging Ella theme.",
-    img: "/partlow-boots.png",
+    img: "/partlow-boots-v3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://partlowofficial.com/",
   },
@@ -97,9 +97,9 @@ export const projects = [
     id: 4,
     title: "Danver",
     des: "Custom WordPress site for luxury outdoor kitchen brand.",
-    img: "/danver.png",
+    img: "/danver-v2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://danver.com",
   },
 ];
 
@@ -204,17 +204,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/johnny1864"
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/johnny-rivera-6194b670/"
   },
 ];
 
 export const skills = [
-  "CSS/SASS", "JavaScript", "WordPress", "Shopify", "PHP", "jQuery", "NextJS", "Git"
+  "CSS/SASS", "JavaScript", "WordPress", "Shopify", "PHP", "jQuery", "TypeScript", "NextJS", "Git"
 ]
