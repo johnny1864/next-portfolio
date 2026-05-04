@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm";
 
 const Footer = () => {
   const d = new Date();
-  let year = d.getFullYear();
+  let year = d.getFullYear(); 
   return (
     <footer id="footer" className="w-full pt-20 pb-10 relative overflow-hidden">
       <div className="w-full absolute left-0 -bottom-72">
